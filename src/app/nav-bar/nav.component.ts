@@ -4,7 +4,7 @@ import {SearchComponent} from './search.component'
 
 @Component({
     selector: 'nav-bar',
-    templateUrl: 'app/nav.template.html',
+    templateUrl: 'app/nav-bar/nav.template.html',
     directives: [SearchComponent] 
 })
 
