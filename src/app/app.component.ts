@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {NavComponent} from './nav.component';
+import {NavComponent} from './nav-bar/nav.component';
 
 @Component({
   moduleId: module.id,
