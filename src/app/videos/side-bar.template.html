@@ -1,7 +1,7 @@
 <div class="col-md-3">
   <h3 align="center" class="text-center featured-videos">VIDEO CATEGORIES </h3>
   <ul *ngIf="categories" class="list-group v-cat">
-    <li *ngFor="let categories of category" class="list-group-item">
+    <li *ngFor="let category of categories" class="list-group-item">
       <a href="/video/category/{{category}}">
         <p class="img-circle">
             <i class="devicon-{{category | lowercase}}-plain colored"></i>

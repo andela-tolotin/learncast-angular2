@@ -11,6 +11,6 @@ export class SideBarComponent {
     categories: string[];
 
     constructor(private _catServices: SideBarService) {
-       this.categories = _catServices.getCategories(); 
+       this.categories = _catServices.getCategories();
     }
 }
