@@ -5,5 +5,5 @@ import {Component} from '@angular/core';
     templateUrl: 'app/top-section/slide-view.template.html'
 })
 export class SlideComponent {
-    login: boolean = true; 
+    login: string = "true"; 
 }
