@@ -29,12 +29,11 @@ export class MainVideoComponent {
         );
     }
 
-    styles() {
+    styles(video) {
         return {
             'height':'150px', 
-            'background':'url("http://img.youtube.com/vi/q6rfofz_muI/mqdefault.jpg")', 
+            'background':'url("http://img.youtube.com/vi/'+video.url+'/mqdefault.jpg")', 
             'background-size':'cover'
         }
     }
-
 }
